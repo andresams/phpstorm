@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="PHP">
+        <added pattern="\ini_set(varname,newvalue)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
