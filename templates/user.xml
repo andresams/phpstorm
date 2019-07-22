@@ -1,0 +1,37 @@
+<templateSet group="user">
+  <template name="m2modulexml" value="&lt;?xml version=&quot;1.0&quot;?&gt;&#10;&lt;config xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;urn:magento:framework:Module/etc/module.xsd&quot;&gt;&#10;    &lt;module name=&quot;Prestafy_Rede&quot; setup_version=&quot;0.0.1&quot;/&gt;&#10;&lt;/config&gt;" description="Module XML declaration" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="m2layoutxml" value="&lt;?xml version=&quot;1.0&quot;?&gt;&#10;&lt;page xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; layout=&quot;1column&quot;&#10;      xsi:noNamespaceSchemaLocation=&quot;urn:magento:framework:View/Layout/etc/page_configuration.xsd&quot;&gt;&#10;    &lt;body&gt;&#10;        &lt;referenceContainer name=&quot;content&quot;&gt;&#10;            &lt;block name=&quot;prestafy_hello_index&quot; class=&quot;Prestafy\Rede\Block\Hello&quot; template=&quot;hello.phtml&quot; /&gt;&#10;        &lt;/referenceContainer&gt;&#10;    &lt;/body&gt;&#10;&lt;/page&gt;" description="Layout XML for Magento 2" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="m2collection" value="namespace Prestafy\Rede\Model\ResourceModel\Transaction;&#10;&#10;use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;&#10;use Prestafy\Rede\Model\Transaction;&#10;use Prestafy\Rede\Model\ResourceModel\Transaction as TransactionResource;&#10;&#10;class Collection extends AbstractCollection&#10;{&#10;    protected $_idFieldName = 'id';&#10;&#10;    public function _construct()&#10;    {&#10;        $this-&gt;_init(&#10;            Transaction::class,&#10;            TransactionResource::class&#10;        );&#10;    }&#10;}" description="Magento 2 Collection" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="m2resourcemodel" value="namespace Prestafy\Rede\Model\ResourceModel;&#10;&#10;use Magento\Framework\Model\ResourceModel\Db\AbstractDb;&#10;&#10;class Transaction extends AbstractDb&#10;{&#10;    protected function _construct()&#10;    {&#10;        $this-&gt;_init('prestafy_rede_transactions', 'id');&#10;    }&#10;}" description="Magento 2 Resource Model" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="m2model" value="namespace Prestafy\Rede\Model;&#10;&#10;use Magento\Framework\Model\AbstractModel;&#10;use Prestafy\Rede\Model\ResourceModel\Transaction as TransactionResource;&#10;&#10;class Transaction extends AbstractModel&#10;{&#10;    public function _construct()&#10;    {&#10;        $this-&gt;_init(TransactionResource::class);&#10;    }&#10;}" description="Magento 2 DB Model" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="m2registration" value="\Magento\Framework\Component\ComponentRegistrar::register(&#10;    \Magento\Framework\Component\ComponentRegistrar::MODULE,&#10;    'Prestafy_Rede',&#10;    __DIR__);" description="Magento 2 Module Registration" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="m2downloadfile" value="public function execute()&#10;    {&#10;        return $this-&gt;fileFactory-&gt;create(&#10;            'filename.txt',&#10;            'file contents',&#10;            MagentoFrameworkAppFilesystemDirectoryList::VAR_DIR,&#10;            'application/text'&#10;        );&#10;    }" description="Magento 2 Download file on Controller" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+</templateSet>

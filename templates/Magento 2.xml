@@ -1,0 +1,7 @@
+<templateSet group="Magento 2">
+  <template name="m2controller" value="&lt;?php&#10;&#10;namespace Prestafy\Rede\Controller\Index;&#10;&#10;use Magento\Framework\Controller\ResultFactory;&#10;&#10;class Index extends \Magento\Framework\App\Action\Action&#10;{&#10;    public function execute()&#10;    {&#10;        return $this-&gt;resultFactory-&gt;create(ResultFactory::TYPE_PAGE);&#10;    }&#10;&#10;    public function executeJSON()&#10;    {&#10;        $result = $this-&gt;resultFactory-&gt;create(ResultFactory::TYPE_JSON);&#10;        $o = (object) array('teste' =&gt; 'foo');&#10;        $result-&gt;setData($o);&#10;        return $result;&#10;    }&#10;}" description="Magento 2 Controller" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
