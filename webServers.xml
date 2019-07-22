@@ -1,9 +1,0 @@
-<application>
-  <component name="WebServers">
-    <option name="servers">
-      <webServer id="9bbe8734-31c0-4643-bb29-ec31c34e09ca" name="Sundberg" url="http://sundberg.local/">
-        <fileTransfer port="0" accessType="LOCAL" />
-      </webServer>
-    </option>
-  </component>
-</application>
