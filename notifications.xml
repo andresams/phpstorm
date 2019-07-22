@@ -1,0 +1,5 @@
+<application>
+  <component name="NotificationConfiguration" showBalloons="false">
+    <notification groupId="External Executable Critical Failures" displayType="STICKY_BALLOON" shouldLog="false" />
+  </component>
+</application>
