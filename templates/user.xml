@@ -39,4 +39,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="m2route" value="&lt;?xml version=&quot;1.0&quot;?&gt;&#10;&lt;config xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&#10;        xsi:noNamespaceSchemaLocation=&quot;urn:magento:framework:App/etc/routes.xsd&quot;&gt;&#10;    &lt;router id=&quot;admin&quot;&gt;&#10;        &lt;route id=&quot;faq&quot; frontName=&quot;faq&quot;&gt;&#10;            &lt;module name=&quot;Andresa_Faq&quot;/&gt;&#10;        &lt;/route&gt;&#10;    &lt;/router&gt;&#10;&lt;/config&gt;" description="Magento 2 XML Route" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>
