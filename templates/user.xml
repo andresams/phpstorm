@@ -54,4 +54,10 @@
       <option name="XML_TEXT" value="true" />
     </context>
   </template>
+  <template name="m2admincontroller" value="namespace Andresa\Faq\Controller\Adminhtml\Category;&#10;&#10;use Magento\Framework\Controller\ResultFactory;&#10;&#10;class Index extends \Magento\Backend\App\Action&#10;{&#10;    public function execute()&#10;    {&#10;        /** @var \Magento\Framework\Controller\Result\\Magento\Framework\Controller\Result\Raw $result */&#10;        $result = $this-&gt;resultFactory-&gt;create(ResultFactory::TYPE_PAGE);&#10;&#10;        return $result;&#10;    }&#10;}" description="Magento 2 Admin Controller" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
 </templateSet>
