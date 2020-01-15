@@ -10,10 +10,10 @@
     <mask>*.mxml</mask>
     <mask>*.json</mask>
     <mask>*.html</mask>
-    <mask>*.js</mask>
     <mask>*.php</mask>
     <mask>*.css</mask>
-    <mask>*.phtml</mask>
     <mask>*.xml</mask>
+    <mask>*.js</mask>
+    <mask>*.phtml</mask>
   </component>
 </application>
