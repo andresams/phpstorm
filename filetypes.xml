@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="java" type="JavaFX" />
       <mapping pattern="sess_t29464oueug40s1cu23pg83oh0" type="PLAIN_TEXT" />
       <mapping pattern="id_rsa" type="PLAIN_TEXT" />
       <mapping pattern="sess_d75rvgng3i71dlajv8rdr4kbs2" type="PLAIN_TEXT" />
