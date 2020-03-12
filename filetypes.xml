@@ -7,6 +7,7 @@
       <mapping pattern="sess_d75rvgng3i71dlajv8rdr4kbs2" type="PLAIN_TEXT" />
       <mapping ext="lck" type="PLAIN_TEXT" />
       <mapping ext="lnk" type="PLAIN_TEXT" />
+      <mapping ext="test" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
