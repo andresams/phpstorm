@@ -12,8 +12,8 @@
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.js</mask>
-    <mask>*.php</mask>
     <mask>*.xml</mask>
     <mask>*.json</mask>
+    <mask>*.php</mask>
   </component>
 </application>
