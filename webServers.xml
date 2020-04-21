@@ -1,9 +1,0 @@
-<application>
-  <component name="WebServers">
-    <option name="servers">
-      <webServer id="9bbe8734-31c0-4643-bb29-ec31c34e09ca" name="TiVo" url="http://tivo.test/">
-        <fileTransfer port="0" mountedRoot="$USER_HOME$/Documents/projects/tivo" accessType="MOUNT" />
-      </webServer>
-    </option>
-  </component>
-</application>
