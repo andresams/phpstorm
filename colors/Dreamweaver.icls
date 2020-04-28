@@ -2,12 +2,13 @@
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="description">Dreamweaver Andresa</property>
-    <property name="modified">2018-04-20T14:22:08</property>
+    <property name="modified">2020-04-27T22:48:27</property>
     <property name="vendorMail" />
     <property name="vendorName" />
     <property name="vendorUrl">http://</property>
     <property name="version">0.1</property>
   </metaInfo>
+  <option name="LINE_SPACING" value="1.2" />
   <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="EDITOR_FONT_NAME" value="Menlo" />
   <colors>
@@ -203,6 +204,9 @@
       <value />
     </option>
     <option name="SCOPE_KEY_Tests">
+      <value />
+    </option>
+    <option name="TEXT">
       <value />
     </option>
   </attributes>
