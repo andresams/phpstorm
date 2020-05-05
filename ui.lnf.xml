@@ -3,7 +3,7 @@
     <option name="ACTIVATE_MRU_EDITOR_ON_CLOSE" value="true" />
     <option name="CLOSE_TAB_BUTTON_ON_THE_RIGHT" value="false" />
     <option name="EDITOR_TAB_LIMIT" value="100" />
-    <option name="EDITOR_TAB_PLACEMENT" value="4" />
+    <option name="EDITOR_TAB_PLACEMENT" value="2" />
     <option name="HIDE_TABS_IF_NEED" value="false" />
     <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
     <option name="OPEN_TABS_AT_THE_END" value="true" />
